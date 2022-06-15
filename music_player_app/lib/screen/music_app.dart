@@ -212,7 +212,7 @@ class _MusicAppState extends State<MusicApp> {
                               ),
                             ),
                        
-                            IconButton(
+                           IconButton(
                               iconSize: 62.0,
                               color: Colors.blue[800],
                               onPressed: () {
@@ -224,7 +224,7 @@ class _MusicAppState extends State<MusicApp> {
                                     playBtn = Icons.pause;
                                     playing = true;
                                   });
-                                  } else {
+                                } else {
                                   _player.pause();
                                   setState(() {
                                     playBtn = Icons.play_arrow;
