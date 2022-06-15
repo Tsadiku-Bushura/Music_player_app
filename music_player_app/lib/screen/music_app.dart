@@ -170,9 +170,7 @@ class _MusicAppState extends State<MusicApp> {
                         //Let's start by adding the controller
                         //let's add the time indicator text
 
-                       
-                        
-                    Expanded(
+                        Expanded(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.center,
