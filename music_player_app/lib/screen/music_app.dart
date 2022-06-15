@@ -129,7 +129,7 @@ class _MusicAppState extends State<MusicApp> {
                 //Let's add the music cover
                 Center(
                   child: Container(
-                  height: 280.0,
+                    height: 280.0,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(30.0),
                         image: const DecorationImage(
@@ -170,9 +170,7 @@ class _MusicAppState extends State<MusicApp> {
                         //Let's start by adding the controller
                         //let's add the time indicator text
 
-                       
-                        
-                    Expanded(
+                        Expanded(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.center,
@@ -213,7 +211,6 @@ class _MusicAppState extends State<MusicApp> {
                                 Icons.skip_previous,
                               ),
                             ),
-                       
                             IconButton(
                               iconSize: 62.0,
                               color: Colors.blue[800],
@@ -226,7 +223,7 @@ class _MusicAppState extends State<MusicApp> {
                                     playBtn = Icons.pause;
                                     playing = true;
                                   });
-                                  } else {
+                                } else {
                                   _player.pause();
                                   setState(() {
                                     playBtn = Icons.play_arrow;
