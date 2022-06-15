@@ -39,3 +39,22 @@ const Divider(),
                     ],
                   ),
                 ),
+const Divider(),
+                InkWell(
+                  onTap: () => {},
+                  child: Row(
+                    children: const [
+                      Icon(Icons.copyright_rounded),
+                      SizedBox(width: 15),
+                      Text("copyright   2022@wku.stuIS.group")
+                    ],
+                  ),
+                )
+              ],
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
