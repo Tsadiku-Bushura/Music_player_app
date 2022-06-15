@@ -170,7 +170,9 @@ class _MusicAppState extends State<MusicApp> {
                         //Let's start by adding the controller
                         //let's add the time indicator text
 
-                        Expanded(
+                       
+                        
+                    Expanded(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.center,
@@ -211,6 +213,7 @@ class _MusicAppState extends State<MusicApp> {
                                 Icons.skip_previous,
                               ),
                             ),
+                       
                             IconButton(
                               iconSize: 62.0,
                               color: Colors.blue[800],
